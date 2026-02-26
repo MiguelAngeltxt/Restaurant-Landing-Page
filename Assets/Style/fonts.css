@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Pacifico&display=swap');
+
+h1{
+    font-family: 'Pacifico', cursive;
+}
+
+h2{
+    font-family: 'Cookie', cursive;
+}
+
+h3, p, a{
+    font-family: 'Cookie', cursive;
+}
