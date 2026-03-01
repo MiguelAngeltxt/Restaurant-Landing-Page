@@ -1,5 +1,8 @@
 .glass-navbar {
     background: rgba(255, 255, 255, 0.15);
     backdrop-filter: blur(2px);
-    
+}
+
+.navbar-t {
+    font-size: 3rem;
 }
