@@ -4,4 +4,7 @@ body {
     background-image: url('../Img/fondo empanada.png');
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding-top: 80px;
 }
