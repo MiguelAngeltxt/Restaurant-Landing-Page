@@ -1,0 +1,12 @@
+.contact{
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.contact h2 p{
+    -webkit-text-stroke: 1px rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,35 @@
+.cart{
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px); /* efecto glass opcional */
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+};
+
+.cart-title{
+    color: #ffffff;
+}
+
+.empty-content-text{
+    color: #ffffff;
+}
+
+input, textarea{
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: #ffffff;
+    padding: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.form button{
+    width: 50%;
+    box-sizing: border-box;
+    background-color: rgba(173, 134, 4, 0.6);
+}
+
+.form button:hover{
+    background-color: rgba(173, 134, 4, 0.9);
+}
+

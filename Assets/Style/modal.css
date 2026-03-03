@@ -1,0 +1,21 @@
+.modal-content {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px); /* efecto glass opcional */
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+}
+
+.btn-close{
+    filter: invert(1);
+}
+
+.btn-secondary {
+    background-color: rgba(255, 255, 255, 0.2);
+    border: none;
+    color: #ffffff;
+}
+.btn-secondary:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+    color: #ffffff;
+}
+

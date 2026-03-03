@@ -7,6 +7,10 @@
     flex-direction: column;
 }
 
+.img-box{
+    position: relative;
+}
+
 .card-body {
     background: transparent;
     display: flex;
@@ -32,3 +36,10 @@
     background-color: rgba(255, 255, 255, 0.5);
     color: white;
 }
+
+.price {
+    position: absolute;
+bottom: 10px;
+right: 10px;
+margin-right: 10px;
+} 

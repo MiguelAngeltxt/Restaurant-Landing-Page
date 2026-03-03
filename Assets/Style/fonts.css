@@ -1,15 +1,6 @@
-/*@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Pacifico&display=swap');*/
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-h1{
-    font-family:  'Pacifico', cursive;
-}
 
-h2{
-    font-family: 'Cookie', cursive;
-}
-
-h1, h2, h3, p, a{
+h1, h2, h3, p, a, span, form{
     font-family: "Inter", sans-serif;
 }

@@ -10,11 +10,11 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg glass-navbar fixed-top navbar-dark">
+        <nav class="navbar navbar-expand-lg glass-navbar fixed-top navbar-dark rounded-top rounded-4">
   <div class="container-fluid">
-    <a class="navbar-brand fs-1 active opacity-75" href="#">Home</a>
+    <a class="navbar-brand active fs-4" href="#">Home</a>
     <div class="d-flex align-items-center gap-2 order-lg-3 ms-lg-5">
-      <a href="#" class="btn btn-outline-light border-0 me-2">
+      <a href="#cart" class="btn btn-outline-light border-0 me-2">
       <i class="bi bi-basket3-fill fs-5 opacity-75"></i>
       </a>
       <button class="navbar-toggler border-0 opacity-75" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,10 +24,10 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ms-auto gap-1 gap-lg-5">
         <li class="nav-item">
-          <a class="nav-link active fs-3 opacity-75" aria-current="page" href="#">Quienes somos</a>
+          <a class="nav-link active fs-5 " aria-current="page" href="#info">Quienes somos</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active fs-3 opacity-75" href="#">Contacto</a>
+          <a class="nav-link active fs-5 " href="#contact">Contacto</a>
         </li>
       </ul>
     </div>
@@ -35,54 +35,112 @@
 </nav>
     </header>
     <main class="container-sm">
-        <div class="row">
-          <div class="col-12 col-md-6">
-            <h1 class="title text-center mt-5 opacity-75 text-white fw-normal"><span>Rincón Empanadero</span></h1>
-            <h2 class="subtitle text-center mt-3 opacity-75 text-white fw-light">Sabor casero en cada bocado</h2>
-            </div>
-        </div>
+          <!-- <div class="col-12 col-md-6"> -->
+            <!-- <h1 class="title text-center mt-5 opacity-75 text-white fw-normal"><span>Rincón Empanadero</span></h1>
+            <h2 class="subtitle text-center mt-3 opacity-75 text-white fw-light">Sabor casero en cada bocado</h2> -->
+            <img src="./Assets/Img/title.png" alt="rincon empanadero" class="title">
+            <!-- </div> -->
     </main>
-    <section class="cards container-fluid d-flex flex-wrap justify-content-center gap-4 mt-5">
+    <section class="container mt-5">
+      <div class="row gap-3 gap-lg-0">
+        <div class="col-12 col-lg-6">
+      <div class="cards container-fluid d-flex flex-wrap justify-content-center gap-4">
 <div class="card" style="width: 18rem;">
-  <img src="./Assets/Img/empandapino.png" class="card-img-top" alt="empanada de pino">
+  <div class="img-box">
+    <img src="./Assets/Img/empandapino.png" class="card-img-top" alt="empanada de pino">
+    <span class="price fw-bold fs-5">$3500</span>
+  </div>
   <div class="card-body">
     <h5 class="card-title">Empanada de Pino</h5>
     <p class="card-text">Empanada tradicional chilena, rellena de carne jugosa, cebolla caramelizada, aceituna y huevo, horneada hasta lograr masa dorada y crujiente.</p>
-    <a href="#" class="btn btn-primary">Agregar al Carro</a>
+    <a class="btn btn-primary">Agregar al Carro</a>
   </div>
 </div>
   <div class="card" style="width: 18rem;">
-  <img src="./Assets/Img/empanadaquesochoclo.png" class="card-img-top" alt="empanada de pino">
+  <div class="img-box">
+    <img src="./Assets/Img/empanadaquesochoclo.png" class="card-img-top" alt="empanada de pino">
+    <span class="price fw-bold fs-5">$3500</span>
+  </div>
   <div class="card-body">
     <h5 class="card-title">Empanada de Queso Choclo</h5>
     <p class="card-text">Cremosa combinación de choclo dulce y abundante queso fundido, envuelta en masa dorada y ligeramente crujiente.</p>
-    <a href="#" class="btn btn-primary">Agregar al Carro</a>
+    <a  class="btn btn-primary">Agregar al Carro</a>
   </div>
 </div>
 <div class="card" style="width: 18rem;">
-  <img src="./Assets/Img/empanadanapolitana.png" class="card-img-top" alt="empanada de pino">
+ <div class="img-box">
+    <img src="./Assets/Img/empanadanapolitana.png" class="card-img-top" alt="empanada de pino">
+    <span class="price fw-bold fs-5">$3500</span>
+  </div>
   <div class="card-body">
     <h5 class="card-title">Empanada Napolitana</h5>
     <p class="card-text">Jamón, tomate fresco, aceitunas y queso derretido, en una empanada sabrosa, aromática y perfectamente equilibrada.</p>
-    <a href="#" class="btn btn-primary">Agregar al Carro</a>
+    <a  class="btn btn-primary">Agregar al Carro</a>
   </div>
 </div>
 <div class="card" style="width: 18rem;">
-  <img src="./Assets/Img/empanadacamaronqueso.png" class="card-img-top" alt="empanada de pino">
+  <div class="img-box">
+    <img src="./Assets/Img/empanadacamaronqueso.png" class="card-img-top" alt="empanada de pino">
+    <span class="price fw-bold fs-5">$3500</span>
+  </div>
   <div class="card-body">
     <h5 class="card-title">Empanada de Camarón Queso</h5>
     <p class="card-text">Camarones salteados y queso fundido en masa crujiente, una mezcla cremosa y delicadamente marina.</p>
-    <a href="#" class="btn btn-primary">Agregar al Carro</a>
+    <a  class="btn btn-primary">Agregar al Carro</a>
   </div>
+</div>
+</div>
+</div>
+<div class="col-12 col-lg-6 d-flex flex-column gap-4" >
+  <div class="info" id="info">
+    <h2 class="info-title text-center mt-1 fw-light" >¡Bienvenido a Rincón Empanadero!</h2>
+    <hr>
+    <p class="info-text text-center mt-3 fw-light">En nuestro rincón empanadero, cada bocado es un viaje al sabor casero. Nuestras empanadas artesanales están hechas con ingredientes frescos y recetas tradicionales, ofreciendo una experiencia culinaria que reconforta el alma. Desde la clásica empanada de pino hasta nuestras creaciones únicas, cada empanada es una muestra de cariño y dedicación. ¡Descubre el auténtico sabor casero en cada mordisco!</p>
+  </div>
+  <div class="contact" id="contact">
+    <h2 class="text-center text-white fw-light fw-b">Contáctanos</h2>
+    <hr>
+    <p class="contact-text text-center mt-3 fw-light">¿Tienes preguntas o quieres hacer un pedido? ¡Estamos aquí para ayudarte! Contáctanos por teléfono al 📞 +56 9 1234 5678, envíanos un correo a contacto@rinconempanadero.cl 📩
+  </div>
+<div class="cart container rounded-4 glass-cart d-flex flex-column justify-content-between">
+  <div class="cart-title mt-3" id="cart">
+    <h3 class="text-white fw-light fw-b text-center">Carro de Compras:</h3>
+      <hr>
+  </div>
+  <div class="cart-content">
+    <p class="empty-content-text fw-light">Tu carrito espera algo delicioso 😉.</p>
+  </div>
+<div class="cart-form">
+  <form class="form" action="#" method="post">
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" required>
+    <br>
+    <label for="telefono">Teléfono:</label>
+    <input type="tel" id="telefono" name="telefono" required>
+    <br>
+    <label for="direccion">Dirección:</label>
+    <input type="text" id="direccion" name="direccion" required>
+    <br>
+    <div class="text-center">
+    <button type="submit" class="btn btn-primary mb-3">Realizar Pedido</button>
+    </div>
+  </form>
+</div>
+
+</div>
+</div>
 </div>
     </section>
     <footer class="footer py-4 mt-5 rounded-bottom rounded-4">
   <div class="container">
     <div class="row">
-      
       <div class="footer-text col-md-6">
-        <h5 class="fw-bold">Rincón Empanadero</h5>
-        <p class="mb-0">Sabor casero en cada bocado.</p>
+        <h5 class="fw-bold mb-3">Síguenos en nuestras redes:</h5>
+        <div class="d-flex justify-content-start gap-5 mt-2">
+          <a href="https://www.facebook.com/" target="_blank" class="text-white"><i class="bi bi-facebook"></i></a>
+          <a href="https://www.instagram.com/" target="_blank" class="text-white"><i class="bi bi-instagram"></i></a>
+          <a href="https://www.twitter.com/" target="_blank" class="text-white"><i class="bi bi-twitter"></i></a>
+        </div>
       </div>
 
       <div class="col-md-6 text-md-end mt-3 mt-md-0">
@@ -93,5 +151,6 @@
   </div>
 </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
 </body>
 </html>

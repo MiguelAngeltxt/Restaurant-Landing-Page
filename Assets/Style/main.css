@@ -2,8 +2,10 @@ main{
     flex: 1;
 }
 .title {
-    font-size: 4.5rem;
+   border: 1px solid green
 }
+
+
 
 .subtitle {
     font-size: 1.5rem;

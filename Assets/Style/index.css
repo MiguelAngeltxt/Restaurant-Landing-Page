@@ -3,4 +3,8 @@
 @import url('./header.css');
 @import url('./main.css');
 @import url('./cards.css');
+@import url('./info.css');
+@import url('./contact.css');
+@import url('./cart.css');
 @import url('./footer.css');
+@import url('./modal.css');
