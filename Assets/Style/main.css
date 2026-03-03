@@ -1,11 +1,6 @@
 main{
     flex: 1;
 }
-.title {
-   border: 1px solid green
-}
-
-
 
 .subtitle {
     font-size: 1.5rem;
